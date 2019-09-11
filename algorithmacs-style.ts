@@ -69,6 +69,12 @@
 
   \;
 
+  <assign|ERROR|<\macro|body>
+    <alg-keyword|error> <arg|body>
+  </macro>>
+
+  \;
+
   <assign|count+|<macro|x|1>>
 
   <assign|count|<xmacro|x|<map-args|count+|plus|x>>>
